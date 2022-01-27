@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="textSize 속성"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#00dd00"
+        android:text="textColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#aaaaa0"
+        android:textStyle="bold"
+        android:text="스타일 볼드"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#fff00000"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="typeface 속성"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#fff000"
+        android:singleLine="true"
+        android:text="sinigleLine 속성 sinigleLine 속성 sinigleLine 속성 sinigleLine 속성 sinigleLine 속성 sinigleLine 속성 sinigleLine 속성 sinigleLine 속성"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text01"
+        android:text="TextView java 코드에서 변경"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text02"
+        android:text="textView 연습 2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text03"
+        android:text="textView 연습3"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="기준 위젯"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/baseBtn"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 번"
+        android:layout_alignTop="@+id/baseBtn"
+        android:layout_toLeftOf="@id/baseBtn"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 번"
+        android:layout_toLeftOf="@id/baseBtn"
+        android:layout_alignBaseline="@id/baseBtn"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 번"
+        android:layout_alignBottom="@id/baseBtn"
+        android:layout_toLeftOf="@id/baseBtn"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 번"
+        android:layout_above="@id/baseBtn"
+        android:layout_alignLeft="@id/baseBtn"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 번"
+        android:layout_below="@id/baseBtn"
+        android:layout_alignRight="@id/baseBtn"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6 번"
+        android:layout_above="@id/baseBtn"
+        android:layout_toRightOf="@id/baseBtn"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7 번"
+    />
+
+</RelativeLayout>

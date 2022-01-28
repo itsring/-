@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--orientation="vertical" 세로로 정렬-->
+    <!--안드로이드의 UI부분은 xml로 구성되어 잇음
+    sml은 모두 시작태그와 끝태그가 존재함
+    끝내그 없이 시작 태그의 긑에 / 를 사용하는 것도 상관없음-->
+
+    <!--     id: ui에서 구분하기 위한 식별자
+             @는 resource를 의미
+             +는 resource에 추가하라는 뜻
+             @+id : resource에 id를 추가 하라는 뜻
+    -->
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn1" />
+    <!--@string : resource안에 미리 지정된 리소스파일 string.xml
+       /btn1 : -->
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2" />
+
+
+</LinearLayout>
